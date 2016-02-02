@@ -6,7 +6,7 @@ textures/newinshader/waterfall
 	surfaceparm nolightmap
 	cull none
 	{
-		map textures/newinshader/waterfall.tga
+		map textures/newinshader/waterfall
                 tcMod Scroll .005 .02      //rain used to be going backwards (!!!)
                 blendFunc GL_ONE GL_ONE
         }
@@ -20,7 +20,7 @@ textures/newinshader/waterfall2
 	surfaceparm nolightmap
 	cull none
 	{
-		map textures/newinshader/waterfall2.tga
+		map textures/newinshader/waterfall2
                 tcMod Scroll .03 .05      //rain used to be going backwards (!!!)
                 blendFunc GL_ONE GL_ONE
         }
@@ -29,14 +29,14 @@ textures/newinshader/waterfall2
 textures/newinshader/grille
 {
 	{
-		map textures/newinshader/grille.tga
+		map textures/newinshader/grille
                 blendFunc GL_ONE GL_ONE
         }
 }
 
 textures/newinshader/lampe
 {
-	qer_editorimage textures/urban_terror4/whitelight.tga
+	qer_editorimage textures/urban_terror4/whitelight
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 12000
@@ -47,12 +47,12 @@ textures/newinshader/lampe
 		rgbGen identity
 	}
 	{
-		map textures/urban_terror4/whitelight.tga
+		map textures/urban_terror4/whitelight
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/urban_terror4/whitelight.tga
+		map textures/urban_terror4/whitelight
 		blendfunc GL_ONE GL_ONE
 	}
 }
@@ -82,12 +82,12 @@ textures/newinshader/lum
 
 textures/newinshader/vitre
 {
-	qer_editorimage textures/newinshader/tinfx3.tga
+	qer_editorimage textures/newinshader/tinfx3
 	qer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm trans
 	{
-		map textures/newinshader/tinfx3.tga
+		map textures/newinshader/tinfx3
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
@@ -101,12 +101,12 @@ textures/newinshader/vitre
 
 textures/newinshader/vitrescreen
 {
-	qer_editorimage textures/newinshader/tinfx3screen.tga
+	qer_editorimage textures/newinshader/tinfx3screen
 	qer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm trans
 	{
-		map textures/newinshader/tinfx3screen.tga
+		map textures/newinshader/tinfx3screen
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
@@ -120,12 +120,12 @@ textures/newinshader/vitrescreen
 
 textures/newinshader/vitrewater
 {
-	qer_editorimage textures/newinshader/tinfx3water.tga
+	qer_editorimage textures/newinshader/tinfx3water
 	qer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm trans
 	{
-		map textures/newinshader/tinfx3water.tga
+		map textures/newinshader/tinfx3water
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
@@ -139,13 +139,13 @@ textures/newinshader/vitrewater
 
 textures/newinshader/metal
 {
-	qer_editorimage textures/cube/metal05.jpg
+	qer_editorimage textures/area3/metal05
 	cull disable
 	{
-		map textures/cube/metal05.jpg
+		map textures/area3/metal05
 	}
 	{
-		map textures/newinshader/tinfx3.tga
+		map textures/newinshader/tinfx3
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
@@ -159,14 +159,14 @@ textures/newinshader/metal
 
 textures/newinshader/tache1
 {
-	qer_editorimage textures/newinshader/tache1.jpg
+	qer_editorimage textures/newinshader/tache1
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	nopicmip
 	{
-		map textures/newinshader/tache1.jpg
+		map textures/newinshader/tache1
 		blendfunc gl_dst_color gl_src_color
 	}
 }
@@ -177,14 +177,14 @@ textures/newinshader/filfer
 	
 
 	{
-		map textures/newinshader/filfer.tga
+		map textures/newinshader/filfer
 	        rgbGen identity
 		tcGen environment
 	}
 	
 	{
-		map textures/newinshader/filfer.tga
-		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA	
+		map textures/newinshader/filfer
+		blendFunc GL_ONE_MINUS_SRC_ALPHA GL_SRC_ALPHA
 		rgbGen identity
 	}
 	{

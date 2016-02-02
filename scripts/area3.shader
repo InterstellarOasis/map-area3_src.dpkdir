@@ -14,7 +14,7 @@ surfaceparm structural
 surfaceparm trans
 }
 
-textures/cube/notpass
+textures/area3/notpass
 {
 	qer_trans 0.40
 	surfaceparm nodraw
@@ -27,7 +27,7 @@ textures/cube/notpass
 	surfaceparm slick
 }
 
-textures/cube/cliplight
+textures/area3/cliplight
 {
 	qer_trans 0.40
 	surfaceparm nodraw
@@ -38,7 +38,7 @@ textures/cube/cliplight
 	surfaceparm playerclip
 }
 
-textures/cube/cliplight2
+textures/area3/cliplight2
 {
 	qer_trans 0.40
 	surfaceparm nodraw
@@ -52,12 +52,12 @@ textures/cube/cliplight2
 //	*      Simple Textures	*
 //	*********************************************************
 
-textures/cube/alientantacle
+textures/area3/alientantacle
 {
-	qer_editorimage textures/cube/alientantacle.jpg
+	qer_editorimage textures/area3/alientantacle
 	surfaceparm nonsolid
 	{
-		map textures/cube/alientantacle.jpg
+		map textures/area3/alientantacle
 	}
 	{
 	map $lightmap
@@ -66,12 +66,12 @@ textures/cube/alientantacle
 	}
 }
 
-textures/cube/alientantacle2
+textures/area3/alientantacle2
 {
-	qer_editorimage textures/cube/alientantacle2.jpg
+	qer_editorimage textures/area3/alientantacle2
 	surfaceparm nonsolid
 	{
-		map textures/cube/alientantacle2.jpg
+		map textures/area3/alientantacle2
 	}
 	{
 	map $lightmap
@@ -80,12 +80,12 @@ textures/cube/alientantacle2
 	}
 }
 
-textures/cube/alien3
+textures/area3/alien3
 {
-	qer_editorimage textures/cube/alien3.jpg
+	qer_editorimage textures/area3/alien3
 	surfaceparm nonsolid
 	{
-		map textures/cube/alien3.jpg
+		map textures/area3/alien3
 	}
 	{
 	map $lightmap
@@ -94,12 +94,12 @@ textures/cube/alien3
 	}
 }
 
-textures/cube/alien
+textures/area3/alien
 {
-	qer_editorimage textures/cube/alien.jpg
+	qer_editorimage textures/area3/alien
 	surfaceparm nonsolid
 	{
-		map textures/cube/alien.jpg
+		map textures/area3/alien
 	}
 	{
 	map $lightmap
@@ -108,12 +108,12 @@ textures/cube/alien
 	}
 }
 
-textures/cube/cable_m01
+textures/area3/cable_m01
 {
-	qer_editorimage textures/cube/cable_m01.jpg
+	qer_editorimage textures/area3/cable_m01
 	surfaceparm nonsolid
 	{
-		map textures/cube/cable_m01.jpg
+		map textures/area3/cable_m01
 	}
 	{
 	map $lightmap
@@ -126,9 +126,9 @@ textures/cube/cable_m01
 //	*      Sound Steps Texture	*
 //	*********************************************************
 
-textures/cube/clipmetal
+textures/area3/clipmetal
 {
-	qer_editorimage textures/cube/clipmetal.jpg
+	qer_editorimage textures/area3/clipmetal
 	qer_trans 0.40
 	surfaceparm nodraw
 	surfaceparm nolightmap
@@ -140,9 +140,9 @@ textures/cube/clipmetal
 	surfaceparm metalsteps
 }
 
-textures/cube/clipwood
+textures/area3/clipwood
 {
-	qer_editorimage textures/cube/clipwood.jpg
+	qer_editorimage textures/area3/clipwood
 	qer_trans 0.40
 	surfaceparm nodraw
 	surfaceparm nolightmap
@@ -159,7 +159,7 @@ textures/cube/clipwood
 //	*      Fx / alpha textures	*
 //	*********************************************************
 
-textures/cube/sandfog
+textures/area3/sandfog
 {
 	qer_trans 0.40
 	surfaceparm trans
@@ -170,9 +170,9 @@ textures/cube/sandfog
 	fogparms ( .6 .48 .4 ) 80000
 }
 
-textures/cube/grille
+textures/area3/grille
 {
-	qer_editor_image textures/cube/grille
+	qer_editor_image textures/area3/grille
 	qer_trans 0.40
 	surfaceparm lightfilter
 	surfaceparm trans
@@ -182,7 +182,7 @@ textures/cube/grille
 	surfaceparm metalsteps
 	cull disable
 	{
-		map textures/cube/grille
+		map textures/area3/grille
 		alphaFunc GE128
 	}
 	{
@@ -194,18 +194,18 @@ textures/cube/grille
 }
 
 
-textures/cube/plastic
+textures/area3/plastic
 {
-	qer_editor_image textures/cube/plastic.tga
+	qer_editor_image textures/area3/plastic
 	surfaceparm lightfilter
 	surfaceparm nonsolid
 	cull disable
 	
 	{
-		map textures/cube/plastic.tga
+		map textures/area3/plastic
 	}
 	{
-		map textures/newinshader/tinfx3plastic.tga
+		map textures/newinshader/tinfx3plastic
 		tcGen environment
 		blendfunc GL_ONE GL_ONE
 		rgbGen identity
@@ -217,16 +217,16 @@ textures/cube/plastic
 	}
 }
 
-textures/cube/bar
+textures/area3/bar
 {
-	qer_editorimage textures/cube/bar.jpg
+	qer_editorimage textures/area3/bar
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	nopicmip
 	{
-		map textures/cube/bar.jpg
+		map textures/area3/bar
 		blendfunc gl_dst_color gl_src_color
 	}
 }
@@ -235,9 +235,9 @@ textures/cube/bar
 //	*      Lights	*
 //	*********************************************************
 
-textures/cube/light
+textures/area3/light
 {
-	qer_editorimage textures/cube/whitelight.tga
+	qer_editorimage textures/area3/whitelight
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 90000
@@ -248,19 +248,19 @@ textures/cube/light
 		rgbGen identity
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/light2
+textures/area3/light2
 {
-	qer_editorimage textures/cube/whitelight.tga
+	qer_editorimage textures/area3/whitelight
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 40000
@@ -271,19 +271,19 @@ textures/cube/light2
 		rgbGen identity
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/light2broken
+textures/area3/light2broken
 {
-	qer_editorimage textures/cube/whitelightbroken.tga
+	qer_editorimage textures/area3/whitelightbroken
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 60000
@@ -294,19 +294,19 @@ textures/cube/light2broken
 		rgbGen identity
 	}
 	{
-		map textures/cube/whitelightbroken.tga
+		map textures/area3/whitelightbroken
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/whitelightbroken.tga
+		map textures/area3/whitelightbroken
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/light3
+textures/area3/light3
 {
-	qer_editorimage textures/cube/whitelight.tga
+	qer_editorimage textures/area3/whitelight
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 30000
@@ -317,19 +317,19 @@ textures/cube/light3
 		rgbGen identity
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/light4
+textures/area3/light4
 {
-	qer_editorimage textures/cube/whitelight.tga
+	qer_editorimage textures/area3/whitelight
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 8000
@@ -340,19 +340,19 @@ textures/cube/light4
 		rgbGen identity
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/whitelight.tga
+		map textures/area3/whitelight
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/blueblendbroken
+textures/area3/blueblendbroken
 {
-	qer_editorimage textures/cube/blueblend
+	qer_editorimage textures/area3/blueblend
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 12000
@@ -363,16 +363,16 @@ textures/cube/blueblendbroken
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		rgbGen wave noise 1 1 1 5.00
 		alphaGen wave sin 0.5 0.3 0.25 1.5
 		blendFunc GL_DST_COLOR GL_ZERO
 	}		
 }
 	
-textures/cube/blueblendnul
+textures/area3/blueblendnul
 {
-	qer_editorimage textures/cube/blueblend
+	qer_editorimage textures/area3/blueblend
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 4000
@@ -383,19 +383,19 @@ textures/cube/blueblendnul
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/blueblendfaible
+textures/area3/blueblendfaible
 {
-	qer_editorimage textures/cube/blueblend
+	qer_editorimage textures/area3/blueblend
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 8000
@@ -406,19 +406,19 @@ textures/cube/blueblendfaible
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/blueblend
+textures/area3/blueblend
 {
-	qer_editorimage textures/cube/blueblend
+	qer_editorimage textures/area3/blueblend
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 14000
@@ -429,19 +429,19 @@ textures/cube/blueblend
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/blueblendforte
+textures/area3/blueblendforte
 {
-	qer_editorimage textures/cube/blueblend
+	qer_editorimage textures/area3/blueblend
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 30000
@@ -452,19 +452,19 @@ textures/cube/blueblendforte
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/blueblendextra
+textures/area3/blueblendextra
 {
-	qer_editorimage textures/cube/blueblend
+	qer_editorimage textures/area3/blueblend
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 140000
@@ -475,19 +475,19 @@ textures/cube/blueblendextra
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/blueblendextrawater
+textures/area3/blueblendextrawater
 {
-	qer_editorimage textures/cube/blueblendwater
+	qer_editorimage textures/area3/blueblendwater
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 60000
@@ -498,19 +498,19 @@ textures/cube/blueblendextrawater
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblendwater.tga
+		map textures/area3/blueblendwater
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/blueblendwater.tga
+		map textures/area3/blueblendwater
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/blueblendbig
+textures/area3/blueblendbig
 {
-	qer_editorimage textures/cube/blueblend
+	qer_editorimage textures/area3/blueblend
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 220000
@@ -521,17 +521,17 @@ textures/cube/blueblendbig
 		rgbGen identity
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/cube/blueblend.tga
+		map textures/area3/blueblend
 		blendfunc GL_ONE GL_ONE
 	}
 }
 
-textures/cube/sandfog
+textures/area3/sandfog
 {
 	qer_trans 0.40
 	surfaceparm trans
@@ -546,348 +546,333 @@ textures/cube/sandfog
 //	*      Decals	*
 //	*********************************************************
 
-textures/cube/trans01
+textures/area3/trans01
 {
-	qer_editorimage textures/cube/trans01.jpg
+	qer_editorimage textures/area3/trans01
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans01.jpg
+		map textures/area3/trans01
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans02
+textures/area3/trans02
 {
-	qer_editorimage textures/cube/trans02.jpg
+	qer_editorimage textures/area3/trans02
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans02.jpg
+		map textures/area3/trans02
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans03
+textures/area3/trans03
 {
-	qer_editorimage textures/cube/trans03.jpg
+	qer_editorimage textures/area3/trans03
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans03.jpg
+		map textures/area3/trans03
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans04
+textures/area3/trans04
 {
-	qer_editorimage textures/cube/trans04.jpg
+	qer_editorimage textures/area3/trans04
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans04.jpg
+		map textures/area3/trans04
 		blendfunc gl_dst_color gl_src_color
 	}
 }
-textures/cube/trans05
+textures/area3/trans05
 {
-	qer_editorimage textures/cube/trans05.jpg
+	qer_editorimage textures/area3/trans05
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans05.jpg
+		map textures/area3/trans05
 		blendfunc gl_dst_color gl_src_color
 	}
 }
-textures/cube/trans06
+textures/area3/trans06
 {
-	qer_editorimage textures/cube/trans06.jpg
+	qer_editorimage textures/area3/trans06
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans06.jpg
-		blendfunc gl_dst_color gl_src_color
-	}
-}
-
-textures/cube/trans07
-{
-	qer_editorimage textures/cube/trans07.jpg
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	polygonOffset
-	{
-		map textures/cube/trans07.jpg
+		map textures/area3/trans06
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans08
+textures/area3/trans07
 {
-	qer_editorimage textures/cube/trans08.jpg
+	qer_editorimage textures/area3/trans07
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans08.jpg
+		map textures/area3/trans07
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans09
+textures/area3/trans08
 {
-	qer_editorimage textures/cube/trans09.jpg
+	qer_editorimage textures/area3/trans08
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans09.jpg
+		map textures/area3/trans08
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans10
+textures/area3/trans09
 {
-	qer_editorimage textures/cube/trans10.jpg
+	qer_editorimage textures/area3/trans09
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans10.jpg
+		map textures/area3/trans09
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans11
+textures/area3/trans10
 {
-	qer_editorimage textures/cube/trans11.jpg
+	qer_editorimage textures/area3/trans10
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans11.jpg
+		map textures/area3/trans10
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans12
+textures/area3/trans11
 {
-	qer_editorimage textures/cube/trans12.jpg
+	qer_editorimage textures/area3/trans11
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans12.jpg
+		map textures/area3/trans11
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans13
+textures/area3/trans12
 {
-	qer_editorimage textures/cube/trans13.jpg
+	qer_editorimage textures/area3/trans12
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans13.jpg
+		map textures/area3/trans12
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans14
+textures/area3/trans13
 {
-	qer_editorimage textures/cube/trans14.jpg
+	qer_editorimage textures/area3/trans13
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans14.jpg
+		map textures/area3/trans13
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans15
+textures/area3/trans14
 {
-	qer_editorimage textures/cube/trans15.jpg
+	qer_editorimage textures/area3/trans14
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans15.jpg
+		map textures/area3/trans14
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans16
+textures/area3/trans15
 {
-	qer_editorimage textures/cube/trans16.jpg
+	qer_editorimage textures/area3/trans15
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans16.jpg
+		map textures/area3/trans15
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans17
+textures/area3/trans16
 {
-	qer_editorimage textures/cube/trans17.jpg
+	qer_editorimage textures/area3/trans16
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans17.jpg
+		map textures/area3/trans16
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans18
+textures/area3/trans17
 {
-	qer_editorimage textures/cube/trans18.jpg
+	qer_editorimage textures/area3/trans17
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans18.jpg
+		map textures/area3/trans17
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans19
+textures/area3/trans18
 {
-	qer_editorimage textures/cube/trans19.jpg
+	qer_editorimage textures/area3/trans18
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans19.jpg
+		map textures/area3/trans18
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans20
+textures/area3/trans19
 {
-	qer_editorimage textures/cube/trans20.jpg
+	qer_editorimage textures/area3/trans19
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans20.jpg
+		map textures/area3/trans19
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans21
+textures/area3/trans20
 {
-	qer_editorimage textures/cube/trans21.jpg
+	qer_editorimage textures/area3/trans20
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans21.jpg
+		map textures/area3/trans20
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans22
+textures/area3/trans21
 {
-	qer_editorimage textures/cube/trans22.jpg
+	qer_editorimage textures/area3/trans21
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans22.jpg
+		map textures/area3/trans21
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans23
+textures/area3/trans22
 {
-	qer_editorimage textures/cube/trans23.jpg
+	qer_editorimage textures/area3/trans22
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans23.jpg
+		map textures/area3/trans22
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans24
+textures/area3/trans23
 {
-	qer_editorimage textures/cube/trans24.jpg
+	qer_editorimage textures/area3/trans23
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	{
-		map textures/cube/trans24.jpg
+		map textures/area3/trans23
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans25
+textures/area3/trans24
 {
-	qer_editorimage textures/cube/trans25.jpg
+	qer_editorimage textures/area3/trans24
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	polygonOffset
+	{
+		map textures/area3/trans24
+		blendfunc gl_dst_color gl_src_color
+	}
+}
+
+textures/area3/trans25
+{
+	qer_editorimage textures/area3/trans25
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	polygonOffset
 	{
-		map textures/cube/trans25.jpg
+		map textures/area3/trans25
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans26
+textures/area3/trans26
 {
-	qer_editorimage textures/cube/trans26.jpg
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	surfaceparm nolightmap
-	cull disable
-	polygonOffset
-	{
-		map textures/cube/trans26.jpg
-		blendfunc gl_dst_color gl_src_color
-	}
-}
-
-textures/cube/trans27
-{
-	qer_editorimage textures/cube/trans27.jpg
+	qer_editorimage textures/area3/trans26
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -895,14 +880,14 @@ textures/cube/trans27
 	cull disable
 	polygonOffset
 	{
-		map textures/cube/trans27.jpg
+		map textures/area3/trans26
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans28
+textures/area3/trans27
 {
-	qer_editorimage textures/cube/trans28.jpg
+	qer_editorimage textures/area3/trans27
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -910,14 +895,14 @@ textures/cube/trans28
 	cull disable
 	polygonOffset
 	{
-		map textures/cube/trans28.jpg
+		map textures/area3/trans27
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/trans29
+textures/area3/trans28
 {
-	qer_editorimage textures/cube/trans29.jpg
+	qer_editorimage textures/area3/trans28
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -925,7 +910,22 @@ textures/cube/trans29
 	cull disable
 	polygonOffset
 	{
-		map textures/cube/trans29.jpg
+		map textures/area3/trans28
+		blendfunc gl_dst_color gl_src_color
+	}
+}
+
+textures/area3/trans29
+{
+	qer_editorimage textures/area3/trans29
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	surfaceparm nolightmap
+	cull disable
+	polygonOffset
+	{
+		map textures/area3/trans29
 		blendfunc gl_dst_color gl_src_color
 		tcMod Scroll .0 .2
 	}
@@ -936,9 +936,9 @@ textures/cube/trans29
 //	*      Screens effects	*
 //	*********************************************************
 
-textures/cube/screen01
+textures/area3/screen01
 {
-	qer_editorimage textures/cube/screen01.jpg
+	qer_editorimage textures/area3/screen01
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -948,14 +948,14 @@ textures/cube/screen01
 	nopicmip
 	cull none
 	{
-		map textures/cube/screen01.jpg
+		map textures/area3/screen01
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/screen02
+textures/area3/screen02
 {
-	qer_editorimage textures/cube/screen02.jpg
+	qer_editorimage textures/area3/screen02
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -965,15 +965,15 @@ textures/cube/screen02
 	nopicmip
 	cull none
 	{
-		map textures/cube/screen02.jpg
+		map textures/area3/screen02
 		blendfunc gl_dst_color gl_src_color
 		tcMod Scroll .0 .2
 	}
 }
 
-textures/cube/screen03
+textures/area3/screen03
 {
-	qer_editorimage textures/cube/screen03.jpg
+	qer_editorimage textures/area3/screen03
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -983,14 +983,14 @@ textures/cube/screen03
 	nopicmip
 	cull none
 	{
-		map textures/cube/screen03.jpg
+		map textures/area3/screen03
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/screen05
+textures/area3/screen05
 {
-	qer_editorimage textures/cube/screen05.jpg
+	qer_editorimage textures/area3/screen05
 	qer_trans 0.40
 	surfaceparm nomarks
 	surfaceparm trans
@@ -1001,16 +1001,16 @@ textures/cube/screen05
 	nopicmip
 	cull none
 	{
-		map textures/cube/screen05.jpg
+		map textures/area3/screen05
 		blendfunc add
 		rgbGen wave sin .5 .5 0 1.5
 		alphaGen wave sin 0.5 0.5 0.5 1
 	}
 }
 
-textures/cube/screen06
+textures/area3/screen06
 {
-	qer_editorimage textures/cube/screen06.jpg
+	qer_editorimage textures/area3/screen06
 	qer_trans 0.40
 	surfaceparm nomarks
 	surfaceparm trans
@@ -1021,17 +1021,17 @@ textures/cube/screen06
 	nopicmip
 	cull none
 	{
-		map textures/cube/screen06.jpg
+		map textures/area3/screen06
 		blendfunc add
-		rgbgen wave noise -9 20 0 4 
+		rgbgen wave noise -9 20 0 4
 		alphaGen wave sin 0.5 0.3 0.25 1.5
 		tcMod Scroll .0 12
 	}
 }
 
-textures/cube/screen07
+textures/area3/screen07
 {
-	qer_editorimage textures/cube/screen07.jpg
+	qer_editorimage textures/area3/screen07
 	qer_trans 0.40
 	surfaceparm nomarks
 	surfaceparm trans
@@ -1042,32 +1042,32 @@ textures/cube/screen07
 	nopicmip
 	cull none
 	{
-		map textures/cube/screen07.jpg
+		map textures/area3/screen07
 		blendfunc add
 		alphaGen wave sin 0.5 0.5 0.5 1
 	}
 }
 
-textures/cube/screen
+textures/area3/screen
 {
-	qer_editorimage textures/cube/screen1
+	qer_editorimage textures/area3/screen1
 	nopicmip
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 128
 	{
-		map textures/cube/screen1
+		map textures/area3/screen1
 		rgbgen identity
 	}
 	{
-		map textures/cube/screen01
+		map textures/area3/screen01
 		blendfunc add
 		rgbGen wave sin .5 .5 0 1.5
 		alphaGen wave sin 0.5 0.5 0.5 1
 	}
 	{
-		map textures/cube/screen02.jpg
+		map textures/area3/screen02
 		blendfunc gl_dst_color gl_src_color
 		tcMod Scroll .0 .2
 	}
@@ -1077,40 +1077,40 @@ textures/cube/screen
 	}
 }
 
-textures/cube/screen2
+textures/area3/screen2
 {
-	qer_editorimage textures/cube/screen2
+	qer_editorimage textures/area3/screen2
 	nopicmip
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	q3map_surfacelight 1000
 	q3map_lightsubdivide 128
 	{
-		map textures/cube/screen04
+		map textures/area3/screen04
 		blendfunc add
 		alphaGen wave sin 0.5 0.5 0.5 1
 	}
 	{
-		map textures/cube/screen02.jpg
+		map textures/area3/screen02
 		blendfunc gl_dst_color gl_src_color
 		tcMod Scroll .0 .2
 	}
 }
 
-textures/cube/screennyan
+textures/area3/screennyan
 {
-	qer_editorimage textures/cube/n1.jpg
+	qer_editorimage textures/area3/n1
 	nopicmip
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	{
-		animMap 10 textures/cube/n1.tga textures/cube/n2.tga textures/cube/n3.tga textures/cube/n4.tga textures/cube/n5.tga textures/cube/n6.tga
+		animMap 10 textures/area3/n1.tga textures/area3/n2.tga textures/area3/n3.tga textures/area3/n4.tga textures/area3/n5.tga textures/area3/n6
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave inverseSawtooth 0 1 0 10
 		
 	}	
 	{
-		animMap 10 textures/cube/n2.tga textures/cube/n3.tga textures/cube/n4.tga textures/cube/n5.tga textures/cube/n6.tga textures/cube/n1.tga
+		animMap 10 textures/area3/n2.tga textures/area3/n3.tga textures/area3/n4.tga textures/area3/n5.tga textures/area3/n6.tga textures/area3/n1
 		blendFunc GL_ONE GL_ONE
 		rgbGen wave sawtooth 0 1 0 10
 	}	
@@ -1125,44 +1125,44 @@ textures/cube/screennyan
 //	*      Logo +	*
 //	*********************************************************
 
-textures/cube/logo1
+textures/area3/logo1
 {
-	qer_editorimage textures/cube/logo1.jpg
+	qer_editorimage textures/area3/logo1
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	nopicmip
 	{
-		map textures/cube/logo1.jpg
+		map textures/area3/logo1
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/logo2
+textures/area3/logo2
 {
-	qer_editorimage textures/cube/logo2.jpg
+	qer_editorimage textures/area3/logo2
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	nopicmip
 	{
-		map textures/cube/logo2.jpg
+		map textures/area3/logo2
 		blendfunc gl_dst_color gl_src_color
 	}
 }
 
-textures/cube/logo3
+textures/area3/logo3
 {
-	qer_editorimage textures/cube/logo3.jpg
+	qer_editorimage textures/area3/logo3
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	polygonOffset
 	nopicmip
 	{
-		map textures/cube/logo3.jpg
+		map textures/area3/logo3
 		blendfunc gl_dst_color gl_src_color
 	}
 }
@@ -1171,9 +1171,9 @@ textures/cube/logo3
 //	*      Water	*
 //	*********************************************************
 
-textures/cube/water
+textures/area3/water
 {
-	qer_editorimage textures/cube/waterpreview.tga
+	qer_editorimage textures/area3/waterpreview
 	qer_trans .55
 	q3map_globaltexture
 	surfaceparm trans
@@ -1182,16 +1182,16 @@ textures/cube/water
 	surfaceparm water
 
 	cull disable
-	{ 
-		map textures/cube/waterwave01.tga
+	{
+		map textures/area3/waterwave01
 		blendFunc GL_dst_color GL_one
 		rgbgen identity
 		tcmod scale .5 .5
 		tcmod transform 1.5 0 1.5 1 1 2
 		tcmod scroll -.05 .001
 	}
-	{ 
-		map textures/cube/waterwave02.tga
+	{
+		map textures/area3/waterwave02
 		blendFunc GL_dst_color GL_one
 		rgbgen identity
 		tcmod scale .5 .5
@@ -1201,6 +1201,6 @@ textures/cube/water
 	{
 		map $lightmap
 		blendFunc GL_dst_color GL_zero
-		rgbgen identity		
+		rgbgen identity
 	}
 }

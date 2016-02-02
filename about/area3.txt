@@ -1,8 +1,8 @@
 ================================================================================
-* Area3 [ beta 3 ] * 
+* Area3 [ beta 3 ] *
 ================================================================================
 
-Author			: Newin : Jaussoin Honoré
+Author			: Newin : Jaussoin HonorÃ©
 Date			: October 29 2011
 
 
@@ -17,7 +17,7 @@ Sounds:			- Proxima4 - desertmonolith ; desertsimple
 				- Plagasul - ruido01
 				- ERH - Boom
 				- FreeSoundProject - http://www.freesound.org/
-				
+
 Textures:		CG Textures - http://www.cgtextures.com/
 
 Editor used		: GTKRadiant 1.5

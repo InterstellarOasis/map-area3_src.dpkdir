@@ -10,75 +10,75 @@
 {
 "classname" "target_speaker"
 "origin" "0 864 216"
-"noise" "cubesound/desertsimple.wav"
+"noise" "sound/area3/desertsimple"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "620 1364 216"
-"noise" "cubesound/desertmonolith.wav"
+"noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "2048 800 216"
-"noise" "cubesound/desertmonolith.wav"
+"noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "1280 1632 216"
-"noise" "cubesound/desertmonolith.wav"
+"noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "1216 864 216"
-"noise" "cubesound/desertsimple.wav"
+"noise" "sound/area3/desertsimple"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "2176 1568 216"
-"noise" "cubesound/desertmonolith.wav"
+"noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-1592 -1464 200"
-"noise" "cubesound/area3.wav"
+"noise" "sound/area3/area3"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "0 -288 472"
-"noise" "cubesound/ruido01.wav"
+"noise" "sound/area3/ruido01"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-1472 736 280"
-"noise" "cubesound/ruido01.wav"
+"noise" "sound/area3/ruido01"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-888 -864 408"
-"noise" "cubesound/ruido01.wav"
+"noise" "sound/area3/ruido01"
 "spawnflags" "1"
 "angle" "180"
 }
 {
 "classname" "target_speaker"
 "origin" "-1368 -40 328"
-"noise" "cubesound/boom.wav"
+"noise" "sound/area3/boom"
 "spawnflags" "1"
 "angle" "180"
 }
 {
 "classname" "target_speaker"
 "origin" "-96 -1248 392"
-"noise" "cubesound/boom.wav"
+"noise" "sound/area3/boom"
 "spawnflags" "1"
 "angle" "180"
 }
@@ -730,7 +730,7 @@
 {
 "classname" "target_speaker"
 "origin" "-1520 -852 216"
-"noise" "cubesound/egg.wav"
+"noise" "sound/area3/egg"
 "targetname" "target_relay7"
 "angle" "90"
 "spawnflags" "4"
@@ -756,7 +756,7 @@
 {
 "classname" "target_speaker"
 "origin" "-880 -1624 71"
-"noise" "cubesound/bip.wav"
+"noise" "sound/area3/bip"
 "targetname" "target_relay13"
 "spawnflags" "8"
 }
@@ -764,21 +764,21 @@
 "classname" "target_speaker"
 "origin" "-1520 -820 240"
 "targetname" "target_relay3"
-"noise" "cubesound/bip.wav"
+"noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
 "classname" "target_speaker"
 "origin" "-557 -1632 64"
 "targetname" "func_door3"
-"noise" "cubesound/bip.wav"
+"noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
 "classname" "target_speaker"
 "origin" "-848 -736 80"
 "targetname" "target_relay5"
-"noise" "cubesound/bip.wav"
+"noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
@@ -856,14 +856,14 @@
 "origin" "-590 -1648 248"
 "angle" "90"
 "targetname" "target_relay2"
-"noise" "cubesound/bip.wav"
+"noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
 "classname" "target_speaker"
 "origin" "-992 -432 64"
 "targetname" "target_speaker1"
-"noise" "cubesound/bip.wav"
+"noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {

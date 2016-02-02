@@ -1,6 +1,6 @@
-textures/cubesky/cubesky
+textures/area3sky/area3sky
 {
-	qer_editorimage textures/cubesky/cubesky.tga
+	qer_editorimage textures/area3sky/area3sky
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -9,6 +9,6 @@ textures/cubesky/cubesky
 	q3map_lightsubdivide 512
 	q3map_globaltexture
 	q3map_surfacelight 400
-	skyparms env/cubesky/cubesky - - 
+	skyparms env/area3/area3sky - -
 
 }
