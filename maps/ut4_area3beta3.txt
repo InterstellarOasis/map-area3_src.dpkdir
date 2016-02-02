@@ -1,0 +1,24 @@
+================================================================================
+* Area3 [ beta 3 ] * 
+================================================================================
+
+Author			: Newin : Jaussoin Honoré
+Date			: October 29 2011
+
+
+* Credits *
+--------------------------------------------------------------------------------
+
+Help :			- Community Urt Fr [ Stratege, Skaz, Asche, Levant, -Sublim3z-, Leeks, camiweed and more ... ]
+
+Models:			- BlackRayne - http://www.blackrayne.net/
+
+Sounds:			- Proxima4 - desertmonolith ; desertsimple
+				- Plagasul - ruido01
+				- ERH - Boom
+				- FreeSoundProject - http://www.freesound.org/
+				
+Textures:		CG Textures - http://www.cgtextures.com/
+
+Editor used		: GTKRadiant 1.5
+Other utilities used	: Gimp, XnView, Inkscape, Q3Map2, Notepad
