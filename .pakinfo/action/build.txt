@@ -1,0 +1,4 @@
+convert_lossy_webp textures/area3/blendnone.png
+convert_lossy_webp textures/area3/blueblend.png
+convert_lossy_webp textures/area3/blueblendwater.png
+convert_lossy_webp textures/area3/whiteblend.png
