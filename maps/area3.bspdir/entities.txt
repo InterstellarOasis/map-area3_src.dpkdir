@@ -509,3 +509,43 @@
 "trigger_only" "1"
 "model" "*15"
 }
+{
+"classname" "team_human_spawn"
+"origin" "1837.716064 1583.390747 4.125000"
+"yaw" "90"
+}
+{
+"classname" "team_human_reactor"
+"origin" "1623.078369 1597.906250 4.124996"
+"yaw" "-180"
+}
+{
+"classname" "team_human_armoury"
+"origin" "1972.590332 1696.553711 11.425003"
+"yaw" "3"
+}
+{
+"classname" "team_human_mgturret"
+"origin" "1681.162720 1702.677979 72.125000"
+"yaw" "143"
+}
+{
+"classname" "team_alien_spawn"
+"origin" "-1788.000000 -604.000000 22.938190"
+"yaw" "180"
+}
+{
+"classname" "team_alien_overmind"
+"origin" "-1793.396362 -1072.160156 22.730953"
+"yaw" "-71"
+}
+{
+"classname" "team_alien_acid_tube"
+"origin" "-1756.683472 -772.383118 20.196877"
+"yaw" "2"
+}
+{
+"classname" "team_alien_barricade"
+"origin" "-1744.558594 -859.901672 21.570805"
+"yaw" "-2"
+}
