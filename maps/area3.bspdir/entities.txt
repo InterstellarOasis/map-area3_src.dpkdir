@@ -2,6 +2,7 @@
 "classname" "worldspawn"
 "_minlight" "10"
 "targetname" "target_relay10"
+"gradingTexture" "gfx/area3/colorgrading"
 }
 {
 "classname" "info_player_start"
