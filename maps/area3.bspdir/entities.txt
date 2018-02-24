@@ -84,9 +84,19 @@
 "angle" "180"
 }
 {
-"classname" "info_player_intermission"
+"classname" "pos_player_intermission"
 "origin" "-333.249 -601.335 228"
 "angle" "33.8802"
+}
+{
+"classname" "pos_human_intermission"
+"origin" "1962 1717 100"
+"angle" "-133"
+}
+{
+"classname" "pos_alien_intermission"
+"origin" "-2034 -1035 113"
+"angle" "41"
 }
 {
 "classname" "target_location"
