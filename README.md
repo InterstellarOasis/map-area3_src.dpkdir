@@ -13,6 +13,7 @@ Levelshot
 History
 -------
 
+* 2011-12-08:	Area3 beta 4
 * 2011-10-29:	Area3 beta 3
 
 Credits
