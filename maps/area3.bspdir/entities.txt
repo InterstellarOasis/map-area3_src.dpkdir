@@ -84,6 +84,11 @@
 "angle" "180"
 }
 {
+"classname" "info_player_intermission"
+"origin" "-333.249 -601.335 228"
+"angle" "33.8802"
+}
+{
 "classname" "target_location"
 "origin" "0 360 232"
 "message" "Central warehouse"
@@ -378,7 +383,6 @@
 "noise" "sound/area3/egg"
 "targetname" "target_relay7"
 "angle" "90"
-"spawnflags" "4"
 }
 {
 "classname" "trigger_multiple"

@@ -170,6 +170,23 @@ textures/area3/sandfog
 	fogparms ( .6 .48 .4 ) 80000
 }
 
+textures/area3/sw_greyfence
+{
+	qer_editor_image textures/area3/sw_greyfence
+	qer_trans 0.40
+	cull disable
+	{
+		map textures/area3/sw_greyfence
+		alphaFunc GE128
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
 textures/area3/grille
 {
 	qer_editor_image textures/area3/grille
@@ -1202,5 +1219,103 @@ textures/area3/water
 		map $lightmap
 		blendFunc GL_dst_color GL_zero
 		rgbgen identity
+	}
+}
+
+//	*********************************************************
+//	*      Add : CubeLaser03 | CubeJump	*
+//	*********************************************************
+
+textures/area3/area301
+{
+	qer_editorimage textures/area3/cu02
+	nopicmip
+	{
+		map textures/area3/cu01
+		rgbgen identity
+	}
+	{
+		map textures/area3/cu02
+		blendfunc add
+		rgbGen wave sin 0.12 0.08 0 0.1
+		alphaGen wave sin 0.5 0.5 0.5 1
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/area3/area302
+{
+	qer_editorimage textures/area3/cu04
+	nopicmip
+	{
+		map textures/area3/cu03
+		rgbgen identity
+	}
+	{
+		map textures/area3/cu04
+		blendfunc add
+		rgbGen wave sin 0.12 0.08 0 0.1
+		alphaGen wave sin 0.5 0.5 0.5 1
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/area3/area303
+{
+	qer_editorimage textures/area3/cu06
+	nopicmip
+	{
+		map textures/area3/cu05
+		rgbgen identity
+	}
+	{
+		map textures/area3/cu06
+		blendfunc add
+		rgbGen wave sin 0.12 0.08 0 0.1
+		alphaGen wave sin 0.5 0.5 0.5 1
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/area3/area304
+{
+	qer_editorimage textures/area3/cu08
+	nopicmip
+	{
+		map textures/area3/cu07
+		rgbgen identity
+	}
+	{
+		map textures/area3/cu08
+		blendfunc add
+		rgbGen wave sin 0.12 0.08 0 0.1
+		alphaGen wave sin 0.5 0.5 0.5 1
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/area3/black
+{
+	qer_editorimage textures/area3/black
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	polygonOffset
+	nopicmip
+	{
+		map textures/area3/black
+		blendfunc gl_dst_color gl_src_color
 	}
 }

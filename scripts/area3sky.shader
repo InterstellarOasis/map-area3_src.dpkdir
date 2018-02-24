@@ -1,6 +1,6 @@
-textures/area3sky/area3sky
+textures/area3/area3sky
 {
-	qer_editorimage textures/area3sky/area3sky
+	qer_editorimage textures/area3/area3sky
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
