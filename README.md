@@ -13,8 +13,9 @@ Levelshot
 History
 -------
 
-* 2011-12-08:	Area³ beta 4
-* 2011-10-29:	Area³ beta 3
+* 2018-02-24:	Area³ 0.4 for Unvanquished
+* 2011-12-08:	Area³ beta 4 for Urban Terror
+* 2011-10-29:	Area³ beta 3 for Urban Terror
 
 Credits
 -------
