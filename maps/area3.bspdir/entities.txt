@@ -1,325 +1,325 @@
 {
 "classname" "worldspawn"
 "_minlight" "10"
-"targetname" "target_relay10"
+"name" "target_relay10"
 "gradingTexture" "gfx/area3/colorgrading"
 }
 {
-"classname" "info_player_start"
+"classname" "pos_player_spawn"
 "origin" "0 64 32"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "0 864 216"
 "noise" "sound/area3/desertsimple"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "620 1364 216"
 "noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "2048 800 216"
 "noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "1280 1632 216"
 "noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "1216 864 216"
 "noise" "sound/area3/desertsimple"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "2176 1568 216"
 "noise" "sound/area3/desertmonolith"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-1592 -1464 200"
 "noise" "sound/area3/area3"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "0 -288 472"
 "noise" "sound/area3/ruido01"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-1472 736 280"
 "noise" "sound/area3/ruido01"
 "spawnflags" "1"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-888 -864 408"
 "noise" "sound/area3/ruido01"
 "spawnflags" "1"
-"angle" "180"
+"yaw" "180"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-1368 -40 328"
 "noise" "sound/area3/boom"
 "spawnflags" "1"
-"angle" "180"
+"yaw" "180"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-96 -1248 392"
 "noise" "sound/area3/boom"
 "spawnflags" "1"
-"angle" "180"
+"yaw" "180"
 }
 {
 "classname" "pos_player_intermission"
 "origin" "-333.249 -601.335 228"
-"angle" "33.8802"
+"yaw" "33.8802"
 }
 {
 "classname" "pos_human_intermission"
 "origin" "1962 1717 100"
-"angle" "-133"
+"yaw" "-133"
 }
 {
 "classname" "pos_alien_intermission"
 "origin" "-2034 -1035 113"
-"angle" "41"
+"yaw" "41"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "0 360 232"
 "message" "Central warehouse"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "992 136 264"
 "message" "Container room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "544 -792 360"
 "message" "Main corridor"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-736 -440 168"
 "message" "Machine room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "1568 328 104"
 "message" "Container yard"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "864 1608 72"
 "message" "Deposit zone"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-864 800 40"
 "message" "Truck depot"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-560 -1744 16"
 "message" "Labo room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-1056 -1744 280"
 "message" "Experimentation space"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-944 -912 264"
 "message" "Command room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-944 -912 88"
 "message" "Command room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "1632 1320 72"
 "message" "Outdoor shelter"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "2224 1704 88"
 "message" "Riddance"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-944 -912 88"
 "message" "Command room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-1856 -864 216"
 "message" "Storage room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "96 -1184 264"
 "message" "Stair"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "0 -1216 64"
 "message" "Stair"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-1248 384 136"
 "message" "Depot corridor"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-1408 -384 104"
 "message" "Command room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "0 704 200"
 "message" "Central road"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "1024 704 72"
 "message" "Central road"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-1376 800 40"
 "message" "Truck depot"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-1456 -912 152"
 "message" "Command room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-880 -1360 168"
 "message" "Command room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-384 -1376 160"
 "message" "Stair"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "128 -832 40"
 "message" "Stair"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-224 -792 360"
 "message" "Main corridor"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "160 -792 360"
 "message" "Main corridor"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "192 -472 40"
 "message" "Central warehouse"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-128 -472 104"
 "message" "Central warehouse"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-256 -24 104"
 "message" "Central warehouse"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "320 -24 104"
 "message" "Central warehouse"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "864 1224 72"
 "message" "Deposit zone"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "1088 1416 72"
 "message" "Deposit zone"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "1824 1128 72"
 "message" "Outdoor shelter"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "1744 1704 88"
 "message" "Riddance"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "2256 1384 88"
 "message" "Riddance"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "1575 689 72"
 "message" "Central road"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "672 -152 264"
 "message" "Container room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "608 328 264"
 "message" "Container room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-992 -152 168"
 "message" "Machine room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-768 136 168"
 "message" "Machine room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-1328 -1232 168"
 "message" "Command room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "-608 -184 168"
 "message" "Machine room"
 }
 {
-"classname" "target_location"
+"classname" "pos_location"
 "origin" "2004 771 72"
 "message" "Central road"
 }
@@ -328,53 +328,53 @@
 "model" "*1"
 }
 {
-"classname" "target_relay"
+"classname" "ctrl_relay"
 "origin" "-1408 -888 240"
-"targetname" "target_relay13"
+"name" "target_relay13"
 "target" "target_relay1"
 }
 {
 "classname" "func_door"
-"targetname" "target_relay1"
-"angle" "-2"
+"name" "target_relay1"
+"yaw" "-2"
 "wait" "15"
 "trigger_only" "1"
 "model" "*2"
 }
 {
 "classname" "func_door"
-"angle" "-2"
+"yaw" "-2"
 "wait" "20"
-"targetname" "func_door1"
+"name" "func_door1"
 "player_use" "0"
 "trigger_only" "1"
 "model" "*3"
 }
 {
-"classname" "target_relay"
+"classname" "ctrl_relay"
 "origin" "-557 -1632 80"
 "target" "func_door1"
-"targetname" "target_relay3"
+"name" "target_relay3"
 }
 {
-"classname" "trigger_multiple"
+"classname" "sensor_player"
 "target" "target_relay3"
 "wait" "10"
 "model" "*4"
 }
 {
 "classname" "func_door"
-"angle" "-2"
+"yaw" "-2"
 "wait" "10"
-"targetname" "func_door3"
+"name" "func_door3"
 "player_use" "0"
 "trigger_only" "1"
 "model" "*5"
 }
 {
 "classname" "func_door"
-"targetname" "target_relay5"
-"angle" "-2"
+"name" "target_relay5"
+"yaw" "-2"
 "wait" "35"
 "soundset" "none"
 "trigger_only" "1"
@@ -382,61 +382,61 @@
 "model" "*6"
 }
 {
-"classname" "trigger_multiple"
+"classname" "sensor_player"
 "wait" "1000"
 "target" "target_relay7"
 "model" "*7"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-1520 -852 216"
 "noise" "sound/area3/egg"
-"targetname" "target_relay7"
-"angle" "90"
+"name" "target_relay7"
+"yaw" "90"
 }
 {
-"classname" "trigger_multiple"
+"classname" "sensor_player"
 "target" "target_relay5"
 "wait" "10"
 "model" "*8"
 }
 {
-"classname" "trigger_multiple"
+"classname" "sensor_player"
 "wait" "10"
 "target" "target_speaker1"
 "model" "*9"
 }
 {
-"classname" "trigger_multiple"
+"classname" "sensor_player"
 "target" "func_door3"
 "wait" "10"
 "model" "*10"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-880 -1624 71"
 "noise" "sound/area3/bip"
-"targetname" "target_relay13"
+"name" "target_relay13"
 "spawnflags" "8"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-1520 -820 240"
-"targetname" "target_relay3"
+"name" "target_relay3"
 "noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-557 -1632 64"
-"targetname" "func_door3"
+"name" "func_door3"
 "noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-848 -736 80"
-"targetname" "target_relay5"
+"name" "target_relay5"
 "noise" "sound/area3/bip"
 "spawnflags" "8"
 }
@@ -448,77 +448,77 @@
 }
 {
 "classname" "func_door"
-"angle" "-2"
+"yaw" "-2"
 "soundset" "none"
 "wait" "220"
 "player_use" "0"
 "trigger_only" "1"
 "lip" "0"
-"targetname" "func_door2"
+"name" "func_door2"
 "spawnflags" "8"
 "speed" "2000"
 "model" "*12"
 }
 {
-"classname" "target_relay"
+"classname" "ctrl_relay"
 "origin" "-1520 -852 248"
-"targetname" "target_relay7"
+"name" "target_relay7"
 "target" "func_door2"
-"angle" "90"
+"yaw" "90"
 }
 {
 "classname" "target_print"
 "origin" "-1520 -852 232"
-"targetname" "target_relay7"
+"name" "target_relay7"
 "message" "Nyan nyan nyan nyan nyan !!!"
-"angle" "90"
+"yaw" "90"
 }
 {
-"classname" "trigger_multiple"
+"classname" "sensor_player"
 "wait" "1000"
 "target" "target_relay2"
 "model" "*13"
 }
 {
 "classname" "func_door"
-"targetname" "target_relay4"
-"angle" "-2"
+"name" "target_relay4"
+"yaw" "-2"
 "wait" "15"
 "trigger_only" "1"
 "model" "*14"
 }
 {
-"classname" "target_relay"
+"classname" "ctrl_relay"
 "origin" "-590 -1648 232"
-"targetname" "target_relay2"
+"name" "target_relay2"
 "target" "target_relay4"
-"angle" "90"
+"yaw" "90"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-590 -1648 248"
-"angle" "90"
-"targetname" "target_relay2"
+"yaw" "90"
+"name" "target_relay2"
 "noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
-"classname" "target_speaker"
+"classname" "sfx_speaker"
 "origin" "-992 -432 64"
-"targetname" "target_speaker1"
+"name" "target_speaker1"
 "noise" "sound/area3/bip"
 "spawnflags" "8"
 }
 {
-"classname" "target_relay"
+"classname" "ctrl_relay"
 "origin" "-992 -432 80"
-"targetname" "target_speaker1"
+"name" "target_speaker1"
 "target" "target_relay6"
 }
 {
 "classname" "func_door"
-"targetname" "target_relay6"
-"angle" "-2"
+"name" "target_relay6"
+"yaw" "-2"
 "wait" "15"
 "trigger_only" "1"
 "model" "*15"
