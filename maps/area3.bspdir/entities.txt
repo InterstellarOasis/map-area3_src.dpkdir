@@ -1,4 +1,5 @@
 {
+"message" "Area³"
 "classname" "worldspawn"
 "_minlight" "10"
 "name" "target_relay10"
